@@ -18,3 +18,9 @@ print(list(resultado1))
 resultado2 = map(mayusculas_xpalabra,names)
 print(list(resultado2))
 
+
+def ends_with_land(country):
+    return country[-4:] == "land"
+
+countries_w_land = filter(ends_with_land, countries)
+print(list(countries_w_land))
