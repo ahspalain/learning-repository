@@ -1,0 +1,60 @@
+h1, p {
+    text-align: center;
+    margin: 1em auto;
+    color: white; /* Color de texto gris oscuro */
+}
+
+form {
+    background-color: #33aaff; /* Azul claro */
+    max-width: 500px;
+    min-width: 300px;
+    padding: 2em;
+    width: 60vw;
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    color: #fff; /* Texto en blanco */
+    background-color: #445566; /* Gris azulado oscuro */
+    font-family: Arial, sans-serif; /* Fuente genérica sans-serif */
+    font-size: 16px;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+    color: #fff; /* Texto en blanco */
+}
+
+input, select, textarea {
+    width: 100%;
+    margin: 10px 0 0 0;
+    min-height: 2em;
+    background-color: #333; /* Gris oscuro */
+    border: 1px solid #333; /* Borde gris oscuro */
+    color: #fff; /* Texto en blanco */
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #555; /* Gris oscuro */
+    border: 1px solid #fff; /* Borde blanco */
+    color: #fff; /* Texto en blanco */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+input[type="checkbox"] {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle
+}
+
